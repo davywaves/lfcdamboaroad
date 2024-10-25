@@ -1,59 +1,41 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 20px;
 }
 
-nav {
-    background-color: rgb(138, 20, 20);
-    padding: 15px;
+header {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
     margin: 0;
     padding: 0;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 15px;
+nav li {
+    display: inline-block;
+    margin-right: 10px;
 }
 
-nav ul li a {
-    color: white;
+nav a {
     text-decoration: none;
-    font-size: 18px;
+    color: #333;
 }
 
-.section {
-    padding: 40px;
+main {
+    margin-top:  
+ 20px;
+}
+
+article {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+footer {
     text-align: center;
-}
-
-h1, h2 {
-    color: #811912;
-}
-
-form {
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-form input, form textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-}
-
-button {
-    background-color: #9c2001;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #8d3232e1;
+    margin-top: 20px;
 }
